@@ -1,0 +1,30 @@
+# CNC AI Brain v11.0.8 — 完整依赖清单
+# pip install -r requirements.txt
+
+# ── 核心框架 ──
+fastapi>=0.100.0
+uvicorn>=0.20.0
+pydantic>=2.0
+
+# ── 3D/CAD ──
+trimesh>=4.0.0
+numpy-stl>=3.0.0
+numpy>=1.24.0
+cascadio>=0.1.0          # STEP文件加载(OpenCASCADE绑定)
+
+# ── 网络/API ──
+httpx>=0.24.0
+requests>=2.31.0
+
+# ── 数据/配置 ──
+pyyaml>=6.0
+jsonschema>=4.0.0
+
+# ── 日志 ──
+loguru>=0.7.0
+
+# ── 可选: GPU检测 ──
+# pynvml>=11.0.0         # NVIDIA GPU检测, 无GPU可跳过
+
+# ── 可选: 精确STEP生成(B-Rep) ──
+# pythonocc-core>=7.7    # 需conda安装: conda install -c conda-forge pythonocc-core
