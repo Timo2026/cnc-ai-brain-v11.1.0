@@ -35,7 +35,7 @@ install_windows.bat
 |------|------|
 | 云端(自动发现) | 设环境变量: `set DEEPSEEK_API_KEY=sk-xxx` |
 | 云端(手动) | 编辑 `config/models.json` |
-| 本地 | 安装 [Ollama](https://ollama.com) + `ollama pull gemma-4-26B-A4B-it-Q4_K_M` |
+| 本地 | 安装 [Ollama](https://ollama.com) + `ollama pull QWEN3.5:35B-Q4_K_M` |
 
 支持的云端API(环境变量自动发现):
 `OPENAI_API_KEY` `ANTHROPIC_API_KEY` `DEEPSEEK_API_KEY` `SILICONFLOW_API_KEY` `QWEN_API_KEY` `XAI_API_KEY` `OPENROUTER_API_KEY` `GROQ_API_KEY` `MOONSHOT_API_KEY`
